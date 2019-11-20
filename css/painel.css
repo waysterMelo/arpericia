@@ -1,0 +1,27 @@
+body {
+   background-image: url("imagens/tela.png");
+    background-size: cover;
+    background-attachment: fixed;
+    border: 10px solid darkgreen;
+
+}
+
+#exTab1 .tab-content {
+    color : black;
+    background-color: transparent;
+
+}
+
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+    border-radius: 0;
+}
+
+.img img{
+    max-width: 400px;
+    max-height: 300px;
+}
+
+
